@@ -1,0 +1,65 @@
+html,body
+{
+    margin: 0px;
+    padding: 0px;
+}
+*
+{
+    box-sizing: border-box;
+}
+.main
+{
+    width: 100%;
+    height: 100vh;
+    border: 4px solid black;
+}
+
+@media (prefers-color-scheme : light)
+{
+    .header
+{
+    width: 100%;
+    height: 10%;
+    border: 4px solid red;
+    background-color: indigo;
+}
+.content
+{
+    width: 100%;
+    height: 60%;
+    border: 4px solid orange;
+    background-color: yellowgreen;
+}
+.footer
+{
+    width: 100%;
+    height: 30%;
+    border: 4px solid green;
+    background-color: palegreen;
+}
+}
+
+@media (prefers-color-scheme : dark)
+{
+    .header
+{
+    width: 100%;
+    height: 10%;
+    border: 4px solid red;
+    background-color: navy;
+}
+.content
+{
+    width: 100%;
+    height: 60%;
+    border: 4px solid orange;
+    background-color: crimson;
+}
+.footer
+{
+    width: 100%;
+    height: 30%;
+    border: 4px solid green;
+    background-color: blueviolet;
+}
+}
